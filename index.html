@@ -1,0 +1,1272 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!-- CSS -->
+        <link href="https://jigsaw.btxmedia.com/pws/client/ux-style-guide/video-modal/lity.css" rel="stylesheet">
+        <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.css">
+        <link rel="stylesheet" href="https://jigsaw.btxmedia.com/assets/css/main.css">
+        <link rel="stylesheet" href="style.css">
+
+        <!-- Javascript Libraries -->
+        <script src="https://cdn.rawgit.com/michalsnik/aos/2.0.4/dist/aos.js"></script>
+        <script src="https://jigsaw.btxmedia.com/pws/client/ux-style-guide/video-modal/lity.js"></script>
+    </head>
+<body>
+
+<style type="text/css">
+
+/**/
+.content>.content-wrap>.grid-container,
+.grid-container.custom-width {
+  max-width: 100%;
+  padding: 0
+}
+.content>.content-wrap,
+.content>.content-wrap>.grid-container>.grid-default {
+  padding: 0
+}
+@media screen and (max-width: 767px) {
+  .content-wrap>.gift-cards {
+  padding: 0
+  }
+}
+
+/*body {
+  scroll-behavior: smooth;
+
+}*/
+
+
+/*----------
+# GROUPS
+-----------*/
+
+#group1  { /*Video*/
+  background: rgb(255,255,255); 
+}
+#group2  { /*Dresses Options*/
+  padding-top: 6%;
+  background: rgb(252,247,241);
+}
+#group3  { /*Salena*/
+  padding: 6% 0;
+  background: rgb(252,247,241);
+}
+#group4  { /*Constance*/
+  padding: 6% 0;
+  background: rgb(72,70,68);
+}
+#group5 { /*Viola*/
+  padding: 6% 0;
+  background: rgb(252,247,241);
+}
+#group6 { /*Iris*/
+  padding: 6% 0;
+  background: rgb(72,70,68);
+}
+#group7 { /*Blog*/
+  padding: 6% 0;
+  background: rgb(252,247,241);
+}
+
+@media all and (max-width: 768px) { 
+  #group3, #group5 {
+    padding-bottom: 12%
+  }
+} 
+
+@media all and (max-width: 767px) { 
+  #group2  {
+    padding-bottom: 30%
+  }
+  #group3, #group5 {
+    padding-bottom: 18%
+  }
+  #group5 {
+    padding-top: 15%
+  }
+  #group4, #group6 {
+    padding-bottom: 10%
+  }
+}  
+
+/*--------------
+# FLEX SECTION 1
+---------------*/
+
+section.flex-section-1-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: center;
+  justify-content: center;;
+  text-align: center;
+  padding-bottom: 5%
+}
+
+section.flex-section-1-1 p {
+  font-size: 1.18vw;
+  line-height: normal;
+  text-align: center;
+  width: 50%;
+  margin:auto;
+  padding-bottom: 50px;
+}
+
+section.flex-section-1-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  justify-content: center
+}
+
+section.flex-section-1-2 > div {
+  flex: 0 0 15%;
+  margin: 0 2%;
+  position: relative;
+}
+
+section.flex-section-1-2 span.dress-name {
+  color: #fff;
+  font-size: 1.8vw;
+  font-family: "FuturaPTMedium-Reg", sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right:0;
+  text-align: center;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+@media all and (max-width: 768px) { 
+  section.flex-section-1-1 p {
+    font-size: 16px;
+    width: 70%
+  }
+  section.flex-section-1-2 > div {
+    flex:0 1 45%;
+    margin: 0.5%; 
+  }
+  section.flex-section-1-2 span.dress-name {
+    font-size: 40px;
+  }
+}
+
+@media all and (max-width: 767px) { 
+  section.flex-section-1-2 > div {
+    flex:1 0 45%;
+  }
+  section.flex-section-1-1 p {
+      width: 90%;
+      padding-bottom: 25px
+  }
+
+  section.flex-section-1-1 button {
+    margin-bottom: 25px
+  }
+  section.flex-section-1-2 span.dress-name {
+    font-size: 18px
+  }
+} 
+
+/*--------------
+# FLEX SECTION 2
+---------------*/
+section.flex-section-2-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+section.flex-section-2-1 > div:first-child {
+  flex: 0 0 37.5%;
+  position: relative;
+}
+
+section.flex-section-2-1 img.ills {
+  position: absolute; 
+  top: -10%;
+  left:12%;
+  width: 40%
+}
+
+section.flex-section-2-1 > div:nth-child(2) {
+  flex: 0 0 25%;
+  margin-left: 0;
+  position: relative;
+  background: rgb(72,70,68);
+  margin-left: 11.5% 
+}
+
+section.flex-section-2-1 div.side-bar {
+  padding: 0 11%;
+  padding-top: 5%;
+  text-align: left;
+  font-family: "FuturaPTMedium-Reg", sans-serif;
+}
+
+section.flex-section-2-1 div.heading {
+  margin-bottom: 6%;
+}
+section.flex-section-2-1 div.heading h2 {
+  font-size: 2vw;
+  color: #fff;
+  line-height: normal;
+  margin-bottom: 2%;
+}
+
+section.flex-section-2-1 div.heading span {
+  font-size: 1.4vw;
+  color: #fff;
+  line-height: normal;
+}
+
+section.flex-section-2-1 div.dress-group img {
+  float: left;
+  width: 45%;
+  padding-right: 8%
+}
+section.flex-section-2-1 div.dress-group p {
+  font-size: 1.18vw;
+  color: #fff;
+  line-height: normal;
+  vertical-align: top;
+  width: 100%;
+  text-align: justify;
+}
+section.flex-section-2-1 div.dress-group button {
+  margin-top: 5%;
+}
+
+section.flex-section-2-1 span.double-line {
+  border-top: 8px solid #a78065;
+  border-bottom: 8px solid #a78065;
+  position: absolute;
+  top: 5%;
+  padding: 2% 0;
+  right: 0;
+  width: 16%;
+}
+
+@media all and (max-width: 768px) {  
+  section.flex-section-2-1 > div:first-child {
+    order: 1;
+    flex:0 0 80%;
+    padding-top: 10%
+  }
+  section.flex-section-2-1 > div:nth-child(2) {
+    order: 0;
+    flex: 0 0 100%;
+    margin-left: 0
+  }
+  section.flex-section-2-1 div.dress-group p {
+    font-size: 16px;
+  }
+  section.flex-section-2-1 div.dress-group img {
+    width: 30%;
+    padding-right: 5%
+  }
+  section.flex-section-2-1 div.side-bar {
+    padding: 8% 11%;
+  }
+  section.flex-section-2-1 div.heading {
+    margin-bottom: 5%;
+  }
+  section.flex-section-2-1 div.heading h2 {
+    font-size: 25px;
+    margin-bottom: 1%;
+  }
+  section.flex-section-2-1 div.heading span {
+    font-size: 20px;
+  }
+  section.flex-section-2-1 div.dress-group button {
+    margin-top: 5%
+  }
+  section.flex-section-2-1 span.double-line {
+    border-top: 5px solid #a78065;
+    border-bottom: 5px solid #a78065;
+    width: 10%;
+    padding:1% 0;
+  }
+}
+
+@media all and (max-width: 767px) { 
+  section.flex-section-2-1 > div:first-child {
+    flex:0 0 90%;
+  }
+  section.flex-section-2-1 {
+    margin-top: -20%
+  }
+  section.flex-section-2-1 div.side-bar {
+    padding: 5% 0;
+    margin: 0 8%
+  }
+  section.flex-section-2-1 div.dress-group button {
+    width: 95vw;
+    margin-top: 10%;
+    margin-left: -20px
+  }
+  section.flex-section-2-1 span.double-line {
+    border-top: 4px solid #a78065;
+    border-bottom: 4px solid #a78065;
+    width: 15%;
+    padding:1.5% 0;
+  }
+  section.flex-section-2-1 img.ills {
+    top:0;
+  }
+
+}  
+
+/*--------------
+# FLEX SECTION 3
+---------------*/
+section.flex-section-3-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+}
+
+section.flex-section-3-1 > div:first-child {
+  flex: 0 0 25%;
+  margin-left: 0;
+  position: relative;
+  background: rgb(72,70,68);
+  margin-right: 12%
+}
+
+section.flex-section-3-1 > div:nth-child(2) {
+  flex: 0 0 29.16666667%;
+  position: relative; 
+}
+
+section.flex-section-3-1 div.side-bar {
+  padding: 0;
+  text-align: left;
+  font-family: "FuturaPTMedium-Reg", sans-serif;
+}
+
+section.flex-section-3-1 div.heading {
+  margin-bottom: 6%;
+}
+section.flex-section-3-1 div.heading h2 {
+  font-size: 2vw;
+  color: #fff;
+  line-height: normal;
+  margin-bottom: 2%;
+}
+
+section.flex-section-3-1 div.heading span {
+  font-size: 1.4vw;
+  color: #fff;
+  line-height: normal;
+}
+
+section.flex-section-3-1 div.dress-group img {
+  float: left;
+  width: 35%;
+  padding-right: 8%
+}
+section.flex-section-3-1 div.dress-group p {
+  font-size: 1.18vw;
+  color: #fff;
+  line-height: normal;
+  vertical-align: top;
+  width: 100%;
+  text-align: justify;
+}
+section.flex-section-3-1 div.dress-group button {
+  margin-top: 5%;
+}
+
+section.flex-section-3-1 span.double-line {
+  border-top: 8px solid #a78065;
+  border-bottom: 8px solid #a78065;
+  position: absolute;
+  bottom: -10%;
+  padding: .5% 0;
+  right: 0;
+  width: 4%;
+}
+
+@media all and (max-width: 768px) {  
+  section.flex-section-3-1 > div:first-child {
+    flex: 0 0 78%;
+    margin-right: 0;
+  }
+  section.flex-section-3-1 > div:nth-child(2) {
+    flex: 0 0 60%;
+    padding-top: 10%
+  }
+
+  section.flex-section-3-1 div.dress-group p {
+    font-size: 16px;
+  }
+  section.flex-section-3-1 div.dress-group img {
+    width: 30%;
+    padding-right: 5%
+  }
+  section.flex-section-3-1 div.heading {
+    margin-bottom: 5%
+  }
+  section.flex-section-3-1 div.heading h2 {
+    font-size: 25px;
+    margin-bottom: 1%;
+  }
+  section.flex-section-3-1 div.heading span {
+    font-size: 20px;
+  }
+  section.flex-section-3-1 div.dress-group button {
+    margin-top: 5%
+  }
+  section.flex-section-3-1 span.double-line {
+    border-top: 5px solid #a78065;
+    border-bottom: 5px solid #a78065;
+    width: 10%;
+    padding:1% 0;
+    top: 0;
+    bottom: inherit;
+  }
+}
+
+@media all and (max-width: 767px) { 
+  section.flex-section-3-1 > div:nth-child(2) {
+    flex:0 0 80%;
+  }
+  section.flex-section-3-1 div.side-bar {
+    padding:0;
+    margin:0 4%;
+  }
+  section.flex-section-3-1 div.dress-group button {
+    width: 95vw;
+    margin-top: 10%;
+    margin-left: -25px
+  }
+  section.flex-section-3-1 span.double-line {
+    border-top: 4px solid #a78065;
+    border-bottom: 4px solid #a78065;
+    width: 15%;
+    padding: 1.5% 0;
+  }
+}  
+
+/*--------------
+# FLEX SECTION 4
+---------------*/
+section.flex-section-4-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+section.flex-section-4-1 > div:first-child {
+  flex: 0 0 25%;
+  margin-left: 0;
+  position: relative;
+  background: rgb(72,70,68);
+  margin-right: 11.5% 
+}
+
+section.flex-section-4-1 > div:nth-child(2) {
+  flex: 0 0 37.5%;
+  position: relative;
+}
+
+section.flex-section-4-1 img.ills {
+  position: absolute; 
+  top: -1%;
+  left:27%;
+  width: 40%
+}
+
+section.flex-section-4-1 div.side-bar {
+  padding: 0 11%;
+  padding-top: 5%;
+  text-align: left;
+  font-family: "FuturaPTMedium-Reg", sans-serif;
+}
+
+section.flex-section-4-1 div.heading {
+  margin-bottom: 6%;
+}
+section.flex-section-4-1 div.heading h2 {
+  font-size: 2vw;
+  color: #fff;
+  line-height: normal;
+  margin-bottom: 2%;
+}
+
+section.flex-section-4-1 div.heading span {
+  font-size: 1.4vw;
+  color: #fff;
+  line-height: normal;
+}
+
+section.flex-section-4-1 div.dress-group img {
+  float: left;
+  width: 45%;
+  padding-right: 8%
+}
+section.flex-section-4-1 div.dress-group p {
+  font-size: 1.18vw;
+  color: #fff;
+  line-height: normal;
+  vertical-align: top;
+  width: 100%;
+  text-align: justify;
+}
+section.flex-section-4-1 div.dress-group button {
+  margin-top: 5%;
+}
+
+section.flex-section-4-1 span.double-line {
+  border-top: 8px solid #a78065;
+  border-bottom: 8px solid #a78065;
+  position: absolute;
+  top: 5%;
+  padding: 2% 0;
+  right: 0;
+  width: 16%;
+}
+
+@media all and (max-width: 768px) {  
+  section.flex-section-4-1 > div:first-child {
+    flex: 0 0 100%;
+    margin-right: 0
+  }
+  section.flex-section-4-1 > div:nth-child(2) {
+    flex: 0 0 80%;
+    padding-top: 10%
+  }
+  section.flex-section-4-1 div.dress-group p {
+    font-size: 16px;
+  }
+  section.flex-section-4-1 div.dress-group img {
+    width: 30%;
+    padding-right: 5%
+  }
+  section.flex-section-4-1 div.side-bar {
+    padding: 8% 11%;
+  }
+  section.flex-section-4-1 div.heading {
+    margin-bottom: 5%;
+  }
+  section.flex-section-4-1 div.heading h2 {
+    font-size: 25px;
+    margin-bottom: 1%
+  }
+  section.flex-section-4-1 div.heading span {
+    font-size: 20px;
+  }
+  section.flex-section-4-1 div.dress-group button {
+    margin-top: 5%
+  }
+  section.flex-section-4-1 span.double-line {
+    border-top: 5px solid #a78065;
+    border-bottom: 5px solid #a78065;
+    width: 10%;
+    padding:1% 0;
+  }
+}
+
+@media all and (max-width: 767px) { 
+  section.flex-section-4-1 > div:nth-child(2) {
+    flex:0 0 90%;
+  }
+  section.flex-section-4-1 div.side-bar {
+    padding: 5% 0;
+    margin: 0 8%;
+  }
+  section.flex-section-4-1 div.dress-group button {
+    width: 95vw;
+    margin-top: 10%;
+    margin-left: -20px;
+  }
+  section.flex-section-4-1 span.double-line {
+    border-top: 4px solid #a78065;
+    border-bottom: 4px solid #a78065;
+    width: 15%;
+    padding: 1.5% 0;
+  }
+  section.flex-section-4-1 img.ills {
+    top:15%;
+  }
+}  
+
+/*--------------
+# FLEX SECTION 4
+---------------*/
+section.flex-section-5-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+  position: relative;
+}
+
+section.flex-section-5-1 > div:first-child {
+  flex: 0 0 29.16666667%;
+  position: relative;
+
+}
+
+section.flex-section-5-1 > div:nth-child(2) {
+  flex: 0 0 30%;
+  margin-left: 0;
+  position: relative;
+  background: rgb(72,70,68);
+  margin-left: 10%   
+}
+
+section.flex-section-5-1 div.side-bar {
+  padding: 0;
+  text-align: right;
+  font-family: "FuturaPTMedium-Reg", sans-serif;
+}
+
+section.flex-section-5-1 div.heading {
+  margin-bottom: 6%;
+}
+section.flex-section-5-1 div.heading h2 {
+  font-size: 2vw;
+  color: #fff;
+  line-height: normal;
+  margin-bottom: 2%;
+}
+
+section.flex-section-5-1 div.heading span {
+  font-size: 1.4vw;
+  color: #fff;
+  line-height: normal;
+}
+
+section.flex-section-5-1 div.dress-group img {
+  float: right;
+  width: 35%;
+  padding-left: 8%
+}
+section.flex-section-5-1 div.dress-group p {
+  font-size: 1.18vw;
+  color: #fff;
+  line-height: normal;
+  vertical-align: top;
+  width: 100%;
+  text-align: right;
+}
+section.flex-section-5-1 div.dress-group button {
+  margin-top: 5%;
+}
+
+section.flex-section-5-1 span.double-line {
+  border-top: 8px solid #a78065;
+  border-bottom: 8px solid #a78065;
+  position: absolute;
+  bottom: -10%;
+  padding: .5% 0;
+  right: 0;
+  width: 4%;
+}
+
+@media all and (max-width: 768px) {  
+
+  section.flex-section-5-1 > div:first-child {
+    order: 1;
+    flex: 0 0 60%;
+    padding-top: 10%;
+
+  }
+  section.flex-section-5-1 > div:nth-child(2) {
+    flex: 0 0 78%;
+    order: 0;
+    margin-left: 0
+  }
+  section.flex-section-5-1 div.side-bar {
+    padding: 0;
+    text-align: left
+  }
+  section.flex-section-5-1 div.heading {
+    margin-bottom: 5%;
+  }
+  section.flex-section-5-1 div.heading h2  {
+    font-size: 25px;
+    margin-bottom: 1%
+  }
+  section.flex-section-5-1 div.heading span {
+    font-size: 20px
+  }
+  section.flex-section-5-1 div.dress-group p {
+    font-size: 16px;
+    text-align:left;
+  }
+  section.flex-section-5-1 div.dress-group img {
+    width: 30%;
+    padding-left: 0;
+    padding-right: 5%;
+    float: left;
+  }
+  section.flex-section-5-1 div.dress-group button {
+    margin-left: 30%;
+  }
+  section.flex-section-5-1 span.double-line {
+    border-top: 5px solid #a78065;
+    border-bottom: 5px solid #a78065;
+    width: 10%;
+    padding: 1% 0;
+    top: 0;
+    bottom: inherit;
+  }    
+}
+
+@media all and (max-width: 767px) { 
+  section.flex-section-5-1 > div:first-child {
+    flex:0 0 80%;
+  }
+  section.flex-section-5-1 div.side-bar {
+    padding:0;
+    margin:0 4%;
+  }
+  section.flex-section-5-1 div.dress-group button {
+    width: 95vw;
+    margin-top: 10%;
+    margin-left: -25px;
+  }
+  section.flex-section-5-1 div.dress-group p {
+    text-align: left;
+  }
+  section.flex-section-5-1 span.double-line {
+    border-top: 4px solid #a78065;
+    border-bottom: 4px solid #a78065;
+    width: 15%;
+    padding: 1.5% 0;
+  }
+}
+
+/*--------------
+# FLEX SECTION 5
+---------------*/
+section.flex-section-6-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  -webkit-justify-content: center;
+  justify-content: center;
+}
+
+section.flex-section-6-1 > div:first-child {
+  flex: 0 0 25%;
+  position: relative;
+  margin-top: 3%;
+  margin-right: 10% 
+}
+
+section.flex-section-6-1 > div:nth-child(2) {
+  flex: 0 0 41.66666667%;
+  margin-left: 0;
+  position: relative;
+  background: rgb(72,70,68);
+}
+
+section.flex-section-6-1 div.side-bar {
+  padding: 0;
+  text-align: left;
+  font-family: "FuturaPTMedium-Reg", sans-serif;
+  color: #000;
+}
+
+section.flex-section-6-1 div.heading {
+  margin-bottom: 6%;
+}
+section.flex-section-6-1 div.heading h2 {
+  font-size: 2vw;
+  line-height: normal;
+  margin-bottom: 2%;
+}
+
+section.flex-section-6-1 div.dress-group p {
+  font-size: 1.18vw;
+  line-height: normal;
+  vertical-align: top;
+  width: 100%;
+  text-align: justify;
+}
+section.flex-section-6-1 div.dress-group button {
+  margin-top: 8%;
+}
+
+@media all and (max-width: 768px) {  
+  section.flex-section-6-1 > div:first-child {
+    order: 1;
+    margin-right: 5%;
+    flex:0 0 75%;
+    margin-top: 5%
+  }
+  section.flex-section-6-1 > div:nth-child(2) {
+    order: 0;
+    flex:0 0 80%;
+  }
+  section.flex-section-6-1 div.heading {
+    margin-bottom: 3%
+  }
+  section.flex-section-6-1 div.heading h2 {
+    font-size: 25px;
+    margin-bottom: 0
+  }
+  section.flex-section-6-1 div.dress-group p {
+    font-size: 16px
+  }
+  section.flex-section-6-1 div.dress-group button {
+    margin-top: 2%
+  }
+}  
+
+@media all and (max-width: 767px) {  
+  section.flex-section-6-1 > div:nth-child(2) {
+    flex:0 0 90%;
+  }
+  section.flex-section-6-1 div.side-bar {
+    padding: 0;
+    margin: 0 4%;
+  }
+  section.flex-section-6-1 div.dress-group button {
+    margin-top: 10%;
+    margin-left: -8px;
+    width: 95vw;
+  }
+}
+
+
+/*--------------------------------------------------------------
+# GHOST BUTTON
+--------------------------------------------------------------*/
+
+button.ghost {
+background:transparent;
+font-size:16px;
+line-height:16px;
+font-family:"FuturaPTMedium-Reg",sans-serif;
+font-weight:400!important;
+padding:10px;
+letter-spacing:2px;
+text-transform:uppercase;
+min-width:225px;
+text-align:center;
+margin:auto;
+outline:none
+}
+
+@media screen and (min-width: 1921px) {
+button.ghost {
+font-size:21px;
+line-height:21px;
+min-width:340px;
+padding:20px
+}
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+button.ghost {
+min-width:180px
+}
+}
+
+@media screen and (max-width: 767px) {
+button.ghost {
+display:block;
+line-height:36px;
+min-width:95%
+}
+}
+
+/*Standard*/
+button.ghost-jet {
+color:#000;
+border:2px solid #000
+}
+/*Standard*/
+button.ghost-milk {
+color:#fff;
+border:2px solid #fff
+}
+
+/*----------
+# VIDEO
+-----------*/
+
+.video-placeholder  {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background: #000;
+}
+
+.video-placeholder video {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  opacity: 0.5
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: block;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  left: 0px;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.dress-logo {
+  width: 15%;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin:auto;
+  -webkit-transform: translateY(-35%);
+  transform: translateY(-35%);
+}
+
+.play-icon {
+  width: 5%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin:auto;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/*----------------
+# GENERAL
+----------------*/
+
+@media all and (min-width: 1025px) and (max-width:1280px) {
+  div.side-bar {
+    padding-bottom: 10%!important
+  }
+}
+</style>
+
+<div class="the-dress">
+
+  <!-- VIDEO SECTION -->
+   <section id="group1">
+      <div class="video-placeholder">
+        <div style="position:relative;">
+          <div class="overlay">
+            <div style="display:block; width: 100%; height: 100%;" href="" data-lity>
+                <img src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/the-dress-logo-milk.png" class="img-responsive dress-logo">
+                
+
+                <video autoplay='true' loop='true' muted='true' poster='/pws/client/images/homepage/aw17/dresses/test-jigsawthedress.jpg'>
+                    <source src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/test-jigsawthedress.mp4" type="video/mp4" />
+                    <source src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/test-jigsawthedress.webm" type="video/webm" />
+                    <source src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/test-jigsawthedress.ogv" type="video/ogg" />
+              </video>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- THE DRESSES -->
+    <section id="group2">
+            <section class="flex-section-1-1">
+              <div>
+                <p>Selina picked Salena. Constance and Viola struggled between themselves and Iris,who everybody liked. Confused? When Jigsaw developed its new Dress Project – four dresses tailored to every woman’s shape – we named them after poets. Dead poets. So we found living women who (almost) shared the poets’ names to try them out...
+                </p>
+                <a href="" title="">
+                  <button class="ghost ghost-jet">SHOP DRESSES</button>
+                </a>
+              </div>
+            </section>
+
+            <section class="flex-section-1-2">
+              <div>
+                <a href="#group3">
+                  <span class="dress-name">SALENA</span>
+                  <picture>
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/tile-viola-min.jpg" media="(min-width: 992px)" class="img-responsive">
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/thumb-salena-ipad.jpg" media="(min-width: 320px)"  class="img-responsive">
+                      <img srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/tile-viola-min.jpg" id="gtm_dna-hero" class="img-responsive" alt="">
+                  </picture>
+                </a>
+              </div>
+              <div>
+              <a href="#group4">
+                <span class="dress-name">CONSTANCE</span>
+                <picture>
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/tile-constance-min.jpg" media="(min-width: 992px)" class="img-responsive">
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/thumb-constance-ipad.jpg" media="(min-width: 320px)"  class="img-responsive">
+                      <img srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/tile-constance-min.jpg" id="gtm_dna-hero" class="img-responsive" alt="">
+                  </picture>
+              </a>
+              </div>
+              <div>
+                <a href="#group5">
+                  <span class="dress-name">VIOLA</span>
+                  <picture>
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/tile-salena-min.jpg" media="(min-width: 992px)" class="img-responsive">
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/thumb-viola-ipad.jpg" media="(min-width: 320px)"  class="img-responsive">
+                      <img srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/tile-salena-min.jpg" id="gtm_dna-hero" class="img-responsive" alt="">
+                  </picture>
+                </a>
+              </div>
+              <div>
+              <a href="#group6">
+                <span class="dress-name">IRIS</span>
+                <picture>
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/tile-iris-min.jpg" media="(min-width: 992px)" class="img-responsive">
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/thumb-iris-ipad.jpg" media="(min-width: 320px)"  class="img-responsive">
+                      <img srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/tile-iris-min.jpg" id="gtm_dna-hero" class="img-responsive" alt="">
+                  </picture>
+              </a>
+              </div>
+            </section>
+    </section>
+
+    <!-- SALENA -->
+    <section id="group3">
+              <section id="target" class="flex-section-2-1">
+
+              <div>
+                <a href="/">
+                  <img src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/salena-illustration.png" class="ills" data-aos="fade-right" data-aos-offset="800" data-aos-duration="1600">
+                  <img src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/salena-v2.jpg" class="img-responsive">
+                </a>
+              </div>  
+
+              <div>
+                <div class="side-bar">
+                  <div class="heading">
+                    <h2>SALENA</h2>
+                    <span>The Midi-Flare Dress</span>
+                    <span class="double-line"></span>
+                  </div>
+
+                  <div class="dress-group">
+                   
+                      <img src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/thumb-salena-sml.jpg" class="img-responsive">
+                    
+                      <p>“I’m not into fashion – I couldn’t tell you what’s on trend – but what you wear is important. So I picked the dress whose colour and cut would suit me. It was the Salena. When I tried it on, it made me feel pretty and elegant and dressed up, which I don’t normally do.” </p>
+                      <p>Mid-length. Waist-shaping. V-back. Dart detail. When no other dress will do.
+                      </p>
+                      <a href="" title="">
+                        <button class="ghost ghost-milk">SHOP SALENA</button>
+                      </a>
+                  
+                  </div>
+                </div>  
+              </div>
+              </section>
+    </section>
+
+    <!-- CONSTANCE -->
+    <section id="group4">
+              <section class="flex-section-3-1">
+
+              <div>
+
+                <div class="side-bar">
+                  <div class="heading">
+                    <h2>CONSTANCE</h2>
+                    <span>The Modern Shift Dress</span>
+                  </div>
+
+                  <div class="dress-group">
+                   
+                    <img src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/thumb-constance-sml.jpg" class="img-responsive">
+                    
+                      <p>“I love fashion; I love to play with it, to express myself. My style is a bit rock and roll; I take smart pieces and break the rules. So, I’d wear the Constance with a leather jacket and heels or boots. I love boots. Whatever you’re wearing, boots can transform an outfit.”</p>
+                      <p>Loose fit. Knee-skimming. V-back. Dart detail. The dress to rely on.
+                      </p>
+                      <a href="" title="">
+                        <button class="ghost ghost-milk">SHOP CONSTANCE</button>
+                      </a>
+                  </div>
+                </div>  
+              </div>  
+
+                <div>
+                  <a href="/">
+                    <picture>
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/the-dress-project-dtp-constance.gif" media="(min-width: 992px)" class="img-responsive">
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/the-dress-project-iPad-constance.gif" media="(min-width: 320px)"  class="img-responsive">
+                      <img srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/the-dress-project-dtp-constance.gif" id="gtm_dna-hero" class="img-responsive" alt="">
+                  </picture>
+                  </a>
+                </div>  
+              <span class="double-line"></span>
+              </section>
+    </section>
+
+    <!-- VIOLA -->
+    <section id="group5">
+              <section class="flex-section-4-1">
+
+              <div>
+                <div class="side-bar">
+                  <div class="heading">
+                    <h2>VIOLA</h2>
+                    <span>The Pencil Dress</span>
+                    <span class="double-line"></span>
+                  </div>
+                  <div class="dress-group">
+                      <img src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/thumb-viola-sml.jpg" class="img-responsive">
+                    
+                      <p>“Wearing dresses is my signature style. I like the Viola because it’s classic. It makes you feel confident in any occasion. It fits nicely around the waist, and the midi length makes it elegant. I’d wear it with simple black heels.”</p>
+                      <p>Slim fit. Clever seams. Sculpted silhouette. V-back. Dart detail. When form meets function.
+                      </p>
+                      <a href="" title="">
+                        <button class="ghost ghost-milk">SHOP VIOLA</button>
+                      </a>
+                  </div>
+                </div>  
+              </div>  
+              <div>
+                <a href="/">
+                <img src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/viola-illustration.png" class="ills" data-aos="fade-left" data-aos-offset="800" data-aos-duration="1600">
+                  <img src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/viola-v2.jpg" class="img-responsive">
+                </a>
+              </div>  
+              </section>
+    </section>
+
+    <!-- IRIS -->
+    <section id="group6">
+
+              <section class="flex-section-5-1">
+                <div>
+                  <a href="/">
+                     <picture>
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/the-dress-project-dtp-iris.gif" media="(min-width: 992px)" class="img-responsive">
+                      <source srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/the-dress-project-iPad-iris.gif" media="(min-width: 320px)"  class="img-responsive">
+                      <img srcset="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/the-dress-project-dtp-iris.gif" id="gtm_dna-hero" class="img-responsive" alt="">
+                  </picture>
+                  </a>
+                </div> 
+              <div>
+                <div class="side-bar">
+                  <div class="heading">
+                    <h2>IRIS</h2>
+                    <span>The Mini Dress</span>
+                  </div>
+
+                  <div class="dress-group">
+                      <img src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/thumb-iris-sml.jpg" class="img-responsive">
+                    
+                      <p>“I like to look feminine and I love the freedom you get from a dress. It makes me feel confident. I prefer a tighter fit on the waist and top, and looser on the bottom. That’s why I like the Iris. I like how it falls and the seams on the shoulders – it gives you a lovely shape. And I really like the subtle colour and embroidery. It’s very versatile; you can wear it quite formally, with tights for work. Or more casually. But always with fats; I never wear heels.</p>
+                      <p>Neat. Waist-defining. Mid-thigh finish. V-back. Dart detail. A dress for work and play.
+                      </p>
+                      <a href="" title="">
+                        <button class="ghost ghost-milk">SHOP IRIS</button>
+                      </a>
+
+                  </div>
+                </div>  
+              </div>
+               <span class="double-line"></span>   
+              </section>
+
+    </section>
+
+    <!-- BLOG -->
+    <section id="group7">
+
+              <section class="flex-section-6-1">
+
+              <div>
+                <div class="side-bar">
+                  <div class="heading">
+                    <h2>WHAT DEFINES YOU?</h2>
+                  </div>
+
+                  <div class="dress-group">
+                      <p>Read our interviews with Viola, Iris, Constance and Selina to find out how they felt in their namesake dresses. Which dress would you choose? 
+                      </p>
+                      <a href="" title="">
+                        <button class="ghost ghost-jet">READ THE BLOG</button>
+                      </a>
+                  </div>
+                </div>  
+              </div>  
+              <div>
+                <a href="/">
+                  <img src="https://jigsaw.btxmedia.com/pws/client/images/homepage/aw17/dresses/dress_blog-min.jpg" class="img-responsive">
+                </a>
+              </div>  
+              </section>
+    </section>
+
+</div>
+
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+  <script>
+  (function() {
+    var container = $('html, body');
+
+    $('a').click(function() {
+      var target = $($.attr(this, 'href'));
+      container.animate({
+          scrollTop: container.scrollTop() + target.offset().top
+      }, 2000);
+      return false;
+    });
+  }());
+  </script>
+
+  <script>
+    AOS.init({
+      disable: window.innerWidth < 1200
+    });
+ </script>
+
+
+    </body>
+</html>

@@ -1,0 +1,911 @@
+.content>.content-wrap>.grid-container,
+.grid-container.custom-width {
+    max-width: 100%;
+    padding: 0
+}
+.content>.content-wrap,
+.content>.content-wrap>.grid-container>.grid-default {
+    padding: 0
+}
+@media screen and (max-width: 767px) {
+    .content-wrap>.gift-cards {
+        padding: 0
+    }
+}
+/*body {
+  scroll-behavior: smooth;
+
+}*/
+/*----------
+# GROUPS
+-----------*/
+
+#group1 {
+    /*Video*/
+    
+    background: rgb(255, 255, 255);
+}
+#group2 {
+    /*Dresses Options*/
+    
+    padding-top: 6%;
+    background: rgb(252, 247, 241);
+}
+#group3 {
+    /*Salena*/
+    
+    padding: 6% 0;
+    background: rgb(252, 247, 241);
+}
+#group4 {
+    /*Constance*/
+    
+    padding: 6% 0;
+    background: rgb(72, 70, 68);
+}
+#group5 {
+    /*Viola*/
+    
+    padding: 6% 0;
+    background: rgb(252, 247, 241);
+}
+#group6 {
+    /*Iris*/
+    
+    padding: 6% 0;
+    background: rgb(72, 70, 68);
+}
+#group7 {
+    /*Blog*/
+    
+    padding: 6% 0;
+    background: rgb(252, 247, 241);
+}
+@media all and (max-width: 768px) {
+    #group3,
+    #group5 {
+        padding-bottom: 12%
+    }
+}
+@media all and (max-width: 767px) {
+    #group2 {
+        padding-bottom: 30%
+    }
+    #group3,
+    #group5 {
+        padding-bottom: 18%
+    }
+    #group5 {
+        padding-top: 15%
+    }
+    #group4,
+    #group6 {
+        padding-bottom: 10%
+    }
+}
+/*--------------
+# FLEX SECTION 1
+---------------*/
+
+section.flex-section-1-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    ;
+    text-align: center;
+    padding-bottom: 5%
+}
+section.flex-section-1-1 p {
+    font-size: 1.18vw;
+    line-height: normal;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding-bottom: 50px;
+}
+section.flex-section-1-2 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    justify-content: center
+}
+section.flex-section-1-2 > div {
+    flex: 0 0 15%;
+    margin: 0 2%;
+    position: relative;
+}
+section.flex-section-1-2 span.dress-name {
+    color: #fff;
+    font-size: 1.8vw;
+    font-family: "FuturaPTMedium-Reg", sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+@media all and (max-width: 768px) {
+    section.flex-section-1-1 p {
+        font-size: 16px;
+        width: 70%
+    }
+    section.flex-section-1-2 > div {
+        flex: 0 1 45%;
+        margin: 0.5%;
+    }
+    section.flex-section-1-2 span.dress-name {
+        font-size: 40px;
+    }
+}
+@media all and (max-width: 767px) {
+    section.flex-section-1-2 > div {
+        flex: 1 0 45%;
+    }
+    section.flex-section-1-1 p {
+        width: 90%;
+        padding-bottom: 25px
+    }
+    section.flex-section-1-1 button {
+        margin-bottom: 25px
+    }
+    section.flex-section-1-2 span.dress-name {
+        font-size: 18px
+    }
+}
+/*--------------
+# FLEX SECTION 2
+---------------*/
+
+section.flex-section-2-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+section.flex-section-2-1 > div:first-child {
+    flex: 0 0 37.5%;
+    position: relative;
+}
+section.flex-section-2-1 img.ills {
+    position: absolute;
+    top: -10%;
+    left: 12%;
+    width: 40%
+}
+section.flex-section-2-1 > div:nth-child(2) {
+    flex: 0 0 25%;
+    margin-left: 0;
+    position: relative;
+    background: rgb(72, 70, 68);
+    margin-left: 11.5%
+}
+section.flex-section-2-1 div.side-bar {
+    padding: 0 11%;
+    padding-top: 5%;
+    text-align: left;
+    font-family: "FuturaPTMedium-Reg", sans-serif;
+}
+section.flex-section-2-1 div.heading {
+    margin-bottom: 6%;
+}
+section.flex-section-2-1 div.heading h2 {
+    font-size: 2vw;
+    color: #fff;
+    line-height: normal;
+    margin-bottom: 2%;
+}
+section.flex-section-2-1 div.heading span {
+    font-size: 1.4vw;
+    color: #fff;
+    line-height: normal;
+}
+section.flex-section-2-1 div.dress-group img {
+    float: left;
+    width: 45%;
+    padding-right: 8%
+}
+section.flex-section-2-1 div.dress-group p {
+    font-size: 1.18vw;
+    color: #fff;
+    line-height: normal;
+    vertical-align: top;
+    width: 100%;
+    text-align: justify;
+}
+section.flex-section-2-1 div.dress-group button {
+    margin-top: 5%;
+}
+section.flex-section-2-1 span.double-line {
+    border-top: 8px solid #a78065;
+    border-bottom: 8px solid #a78065;
+    position: absolute;
+    top: 5%;
+    padding: 2% 0;
+    right: 0;
+    width: 16%;
+}
+@media all and (max-width: 768px) {
+    section.flex-section-2-1 > div:first-child {
+        order: 1;
+        flex: 0 0 80%;
+        padding-top: 10%
+    }
+    section.flex-section-2-1 > div:nth-child(2) {
+        order: 0;
+        flex: 0 0 100%;
+        margin-left: 0
+    }
+    section.flex-section-2-1 div.dress-group p {
+        font-size: 16px;
+    }
+    section.flex-section-2-1 div.dress-group img {
+        width: 30%;
+        padding-right: 5%
+    }
+    section.flex-section-2-1 div.side-bar {
+        padding: 8% 11%;
+    }
+    section.flex-section-2-1 div.heading {
+        margin-bottom: 5%;
+    }
+    section.flex-section-2-1 div.heading h2 {
+        font-size: 25px;
+        margin-bottom: 1%;
+    }
+    section.flex-section-2-1 div.heading span {
+        font-size: 20px;
+    }
+    section.flex-section-2-1 div.dress-group button {
+        margin-top: 5%
+    }
+    section.flex-section-2-1 span.double-line {
+        border-top: 5px solid #a78065;
+        border-bottom: 5px solid #a78065;
+        width: 10%;
+        padding: 1% 0;
+    }
+}
+@media all and (max-width: 767px) {
+    section.flex-section-2-1 > div:first-child {
+        flex: 0 0 90%;
+    }
+    section.flex-section-2-1 {
+        margin-top: -20%
+    }
+    section.flex-section-2-1 div.side-bar {
+        padding: 5% 0;
+        margin: 0 8%
+    }
+    section.flex-section-2-1 div.dress-group button {
+        width: 95vw;
+        margin-top: 10%;
+        margin-left: -20px
+    }
+    section.flex-section-2-1 span.double-line {
+        border-top: 4px solid #a78065;
+        border-bottom: 4px solid #a78065;
+        width: 15%;
+        padding: 1.5% 0;
+    }
+    section.flex-section-2-1 img.ills {
+        top: 0;
+    }
+}
+/*--------------
+# FLEX SECTION 3
+---------------*/
+
+section.flex-section-3-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+}
+section.flex-section-3-1 > div:first-child {
+    flex: 0 0 25%;
+    margin-left: 0;
+    position: relative;
+    background: rgb(72, 70, 68);
+    margin-right: 12%
+}
+section.flex-section-3-1 > div:nth-child(2) {
+    flex: 0 0 29.16666667%;
+    position: relative;
+}
+section.flex-section-3-1 div.side-bar {
+    padding: 0;
+    text-align: left;
+    font-family: "FuturaPTMedium-Reg", sans-serif;
+}
+section.flex-section-3-1 div.heading {
+    margin-bottom: 6%;
+}
+section.flex-section-3-1 div.heading h2 {
+    font-size: 2vw;
+    color: #fff;
+    line-height: normal;
+    margin-bottom: 2%;
+}
+section.flex-section-3-1 div.heading span {
+    font-size: 1.4vw;
+    color: #fff;
+    line-height: normal;
+}
+section.flex-section-3-1 div.dress-group img {
+    float: left;
+    width: 35%;
+    padding-right: 8%
+}
+section.flex-section-3-1 div.dress-group p {
+    font-size: 1.18vw;
+    color: #fff;
+    line-height: normal;
+    vertical-align: top;
+    width: 100%;
+    text-align: justify;
+}
+section.flex-section-3-1 div.dress-group button {
+    margin-top: 5%;
+}
+section.flex-section-3-1 span.double-line {
+    border-top: 8px solid #a78065;
+    border-bottom: 8px solid #a78065;
+    position: absolute;
+    bottom: -10%;
+    padding: .5% 0;
+    right: 0;
+    width: 4%;
+}
+@media all and (max-width: 768px) {
+    section.flex-section-3-1 > div:first-child {
+        flex: 0 0 78%;
+        margin-right: 0;
+    }
+    section.flex-section-3-1 > div:nth-child(2) {
+        flex: 0 0 60%;
+        padding-top: 10%
+    }
+    section.flex-section-3-1 div.dress-group p {
+        font-size: 16px;
+    }
+    section.flex-section-3-1 div.dress-group img {
+        width: 30%;
+        padding-right: 5%
+    }
+    section.flex-section-3-1 div.heading {
+        margin-bottom: 5%
+    }
+    section.flex-section-3-1 div.heading h2 {
+        font-size: 25px;
+        margin-bottom: 1%;
+    }
+    section.flex-section-3-1 div.heading span {
+        font-size: 20px;
+    }
+    section.flex-section-3-1 div.dress-group button {
+        margin-top: 5%
+    }
+    section.flex-section-3-1 span.double-line {
+        border-top: 5px solid #a78065;
+        border-bottom: 5px solid #a78065;
+        width: 10%;
+        padding: 1% 0;
+        top: 0;
+        bottom: inherit;
+    }
+}
+@media all and (max-width: 767px) {
+    section.flex-section-3-1 > div:nth-child(2) {
+        flex: 0 0 80%;
+    }
+    section.flex-section-3-1 div.side-bar {
+        padding: 0;
+        margin: 0 4%;
+    }
+    section.flex-section-3-1 div.dress-group button {
+        width: 95vw;
+        margin-top: 10%;
+        margin-left: -25px
+    }
+    section.flex-section-3-1 span.double-line {
+        border-top: 4px solid #a78065;
+        border-bottom: 4px solid #a78065;
+        width: 15%;
+        padding: 1.5% 0;
+    }
+}
+/*--------------
+# FLEX SECTION 4
+---------------*/
+
+section.flex-section-4-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+section.flex-section-4-1 > div:first-child {
+    flex: 0 0 25%;
+    margin-left: 0;
+    position: relative;
+    background: rgb(72, 70, 68);
+    margin-right: 11.5%
+}
+section.flex-section-4-1 > div:nth-child(2) {
+    flex: 0 0 37.5%;
+    position: relative;
+}
+section.flex-section-4-1 img.ills {
+    position: absolute;
+    top: -1%;
+    left: 27%;
+    width: 40%
+}
+section.flex-section-4-1 div.side-bar {
+    padding: 0 11%;
+    padding-top: 5%;
+    text-align: left;
+    font-family: "FuturaPTMedium-Reg", sans-serif;
+}
+section.flex-section-4-1 div.heading {
+    margin-bottom: 6%;
+}
+section.flex-section-4-1 div.heading h2 {
+    font-size: 2vw;
+    color: #fff;
+    line-height: normal;
+    margin-bottom: 2%;
+}
+section.flex-section-4-1 div.heading span {
+    font-size: 1.4vw;
+    color: #fff;
+    line-height: normal;
+}
+section.flex-section-4-1 div.dress-group img {
+    float: left;
+    width: 45%;
+    padding-right: 8%
+}
+section.flex-section-4-1 div.dress-group p {
+    font-size: 1.18vw;
+    color: #fff;
+    line-height: normal;
+    vertical-align: top;
+    width: 100%;
+    text-align: justify;
+}
+section.flex-section-4-1 div.dress-group button {
+    margin-top: 5%;
+}
+section.flex-section-4-1 span.double-line {
+    border-top: 8px solid #a78065;
+    border-bottom: 8px solid #a78065;
+    position: absolute;
+    top: 5%;
+    padding: 2% 0;
+    right: 0;
+    width: 16%;
+}
+@media all and (max-width: 768px) {
+    section.flex-section-4-1 > div:first-child {
+        flex: 0 0 100%;
+        margin-right: 0
+    }
+    section.flex-section-4-1 > div:nth-child(2) {
+        flex: 0 0 80%;
+        padding-top: 10%
+    }
+    section.flex-section-4-1 div.dress-group p {
+        font-size: 16px;
+    }
+    section.flex-section-4-1 div.dress-group img {
+        width: 30%;
+        padding-right: 5%
+    }
+    section.flex-section-4-1 div.side-bar {
+        padding: 8% 11%;
+    }
+    section.flex-section-4-1 div.heading {
+        margin-bottom: 5%;
+    }
+    section.flex-section-4-1 div.heading h2 {
+        font-size: 25px;
+        margin-bottom: 1%
+    }
+    section.flex-section-4-1 div.heading span {
+        font-size: 20px;
+    }
+    section.flex-section-4-1 div.dress-group button {
+        margin-top: 5%
+    }
+    section.flex-section-4-1 span.double-line {
+        border-top: 5px solid #a78065;
+        border-bottom: 5px solid #a78065;
+        width: 10%;
+        padding: 1% 0;
+    }
+}
+@media all and (max-width: 767px) {
+    section.flex-section-4-1 > div:nth-child(2) {
+        flex: 0 0 90%;
+    }
+    section.flex-section-4-1 div.side-bar {
+        padding: 5% 0;
+        margin: 0 8%;
+    }
+    section.flex-section-4-1 div.dress-group button {
+        width: 95vw;
+        margin-top: 10%;
+        margin-left: -20px;
+    }
+    section.flex-section-4-1 span.double-line {
+        border-top: 4px solid #a78065;
+        border-bottom: 4px solid #a78065;
+        width: 15%;
+        padding: 1.5% 0;
+    }
+    section.flex-section-4-1 img.ills {
+        top: 15%;
+    }
+}
+/*--------------
+# FLEX SECTION 4
+---------------*/
+
+section.flex-section-5-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+    position: relative;
+}
+section.flex-section-5-1 > div:first-child {
+    flex: 0 0 29.16666667%;
+    position: relative;
+}
+section.flex-section-5-1 > div:nth-child(2) {
+    flex: 0 0 30%;
+    margin-left: 0;
+    position: relative;
+    background: rgb(72, 70, 68);
+    margin-left: 10%
+}
+section.flex-section-5-1 div.side-bar {
+    padding: 0;
+    text-align: right;
+    font-family: "FuturaPTMedium-Reg", sans-serif;
+}
+section.flex-section-5-1 div.heading {
+    margin-bottom: 6%;
+}
+section.flex-section-5-1 div.heading h2 {
+    font-size: 2vw;
+    color: #fff;
+    line-height: normal;
+    margin-bottom: 2%;
+}
+section.flex-section-5-1 div.heading span {
+    font-size: 1.4vw;
+    color: #fff;
+    line-height: normal;
+}
+section.flex-section-5-1 div.dress-group img {
+    float: right;
+    width: 35%;
+    padding-left: 8%
+}
+section.flex-section-5-1 div.dress-group p {
+    font-size: 1.18vw;
+    color: #fff;
+    line-height: normal;
+    vertical-align: top;
+    width: 100%;
+    text-align: right;
+}
+section.flex-section-5-1 div.dress-group button {
+    margin-top: 5%;
+}
+section.flex-section-5-1 span.double-line {
+    border-top: 8px solid #a78065;
+    border-bottom: 8px solid #a78065;
+    position: absolute;
+    bottom: -10%;
+    padding: .5% 0;
+    right: 0;
+    width: 4%;
+}
+@media all and (max-width: 768px) {
+    section.flex-section-5-1 > div:first-child {
+        order: 1;
+        flex: 0 0 60%;
+        padding-top: 10%;
+    }
+    section.flex-section-5-1 > div:nth-child(2) {
+        flex: 0 0 78%;
+        order: 0;
+        margin-left: 0
+    }
+    section.flex-section-5-1 div.side-bar {
+        padding: 0;
+        text-align: left
+    }
+    section.flex-section-5-1 div.heading {
+        margin-bottom: 5%;
+    }
+    section.flex-section-5-1 div.heading h2 {
+        font-size: 25px;
+        margin-bottom: 1%
+    }
+    section.flex-section-5-1 div.heading span {
+        font-size: 20px
+    }
+    section.flex-section-5-1 div.dress-group p {
+        font-size: 16px;
+        text-align: left;
+    }
+    section.flex-section-5-1 div.dress-group img {
+        width: 30%;
+        padding-left: 0;
+        padding-right: 5%;
+        float: left;
+    }
+    section.flex-section-5-1 div.dress-group button {
+        margin-left: 30%;
+    }
+    section.flex-section-5-1 span.double-line {
+        border-top: 5px solid #a78065;
+        border-bottom: 5px solid #a78065;
+        width: 10%;
+        padding: 1% 0;
+        top: 0;
+        bottom: inherit;
+    }
+}
+@media all and (max-width: 767px) {
+    section.flex-section-5-1 > div:first-child {
+        flex: 0 0 80%;
+    }
+    section.flex-section-5-1 div.side-bar {
+        padding: 0;
+        margin: 0 4%;
+    }
+    section.flex-section-5-1 div.dress-group button {
+        width: 95vw;
+        margin-top: 10%;
+        margin-left: -25px;
+    }
+    section.flex-section-5-1 div.dress-group p {
+        text-align: left;
+    }
+    section.flex-section-5-1 span.double-line {
+        border-top: 4px solid #a78065;
+        border-bottom: 4px solid #a78065;
+        width: 15%;
+        padding: 1.5% 0;
+    }
+}
+/*--------------
+# FLEX SECTION 5
+---------------*/
+
+section.flex-section-6-1 {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+section.flex-section-6-1 > div:first-child {
+    flex: 0 0 25%;
+    position: relative;
+    margin-top: 3%;
+    margin-right: 10%
+}
+section.flex-section-6-1 > div:nth-child(2) {
+    flex: 0 0 41.66666667%;
+    margin-left: 0;
+    position: relative;
+    background: rgb(72, 70, 68);
+}
+section.flex-section-6-1 div.side-bar {
+    padding: 0;
+    text-align: left;
+    font-family: "FuturaPTMedium-Reg", sans-serif;
+    color: #000;
+}
+section.flex-section-6-1 div.heading {
+    margin-bottom: 6%;
+}
+section.flex-section-6-1 div.heading h2 {
+    font-size: 2vw;
+    line-height: normal;
+    margin-bottom: 2%;
+}
+section.flex-section-6-1 div.dress-group p {
+    font-size: 1.18vw;
+    line-height: normal;
+    vertical-align: top;
+    width: 100%;
+    text-align: justify;
+}
+section.flex-section-6-1 div.dress-group button {
+    margin-top: 8%;
+}
+@media all and (max-width: 768px) {
+    section.flex-section-6-1 > div:first-child {
+        order: 1;
+        margin-right: 5%;
+        flex: 0 0 75%;
+        margin-top: 5%
+    }
+    section.flex-section-6-1 > div:nth-child(2) {
+        order: 0;
+        flex: 0 0 80%;
+    }
+    section.flex-section-6-1 div.heading {
+        margin-bottom: 3%
+    }
+    section.flex-section-6-1 div.heading h2 {
+        font-size: 25px;
+        margin-bottom: 0
+    }
+    section.flex-section-6-1 div.dress-group p {
+        font-size: 16px
+    }
+    section.flex-section-6-1 div.dress-group button {
+        margin-top: 2%
+    }
+}
+@media all and (max-width: 767px) {
+    section.flex-section-6-1 > div:nth-child(2) {
+        flex: 0 0 90%;
+    }
+    section.flex-section-6-1 div.side-bar {
+        padding: 0;
+        margin: 0 4%;
+    }
+    section.flex-section-6-1 div.dress-group button {
+        margin-top: 10%;
+        margin-left: -8px;
+        width: 95vw;
+    }
+}
+/*--------------------------------------------------------------
+# GHOST BUTTON
+--------------------------------------------------------------*/
+
+button.ghost {
+    background: transparent;
+    font-size: 16px;
+    line-height: 16px;
+    font-family: "FuturaPTMedium-Reg", sans-serif;
+    font-weight: 400!important;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    min-width: 225px;
+    text-align: center;
+    margin: auto;
+    outline: none
+}
+@media screen and (min-width: 1921px) {
+    button.ghost {
+        font-size: 21px;
+        line-height: 21px;
+        min-width: 340px;
+        padding: 20px
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1200px) {
+    button.ghost {
+        min-width: 180px
+    }
+}
+@media screen and (max-width: 767px) {
+    button.ghost {
+        display: block;
+        line-height: 36px;
+        min-width: 95%
+    }
+}
+/*Standard*/
+
+button.ghost-jet {
+    color: #000;
+    border: 2px solid #000
+}
+/*Standard*/
+
+button.ghost-milk {
+    color: #fff;
+    border: 2px solid #fff
+}
+/*----------
+# VIDEO
+-----------*/
+
+.video-placeholder {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-placeholder video {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    opacity: 0.5
+}
+.overlay {
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    left: 0px;
+    background: rgba(0, 0, 0, 0.5);
+}
+.dress-logo {
+    width: 15%;
+    position: absolute;
+    top: 35%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    -webkit-transform: translateY(-35%);
+    transform: translateY(-35%);
+}
+.play-icon {
+    width: 5%;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin: auto;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+/*----------------
+# GENERAL
+----------------*/
+
+@media all and (min-width: 1025px) and (max-width: 1280px) {
+    div.side-bar {
+        padding-bottom: 10%!important
+    }
+}
